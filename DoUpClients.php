@@ -1,9 +1,7 @@
 
 <html>
 <head>
-
-
-	<title> List of  Updates Clients </title>
+   <title> List of  Updates Clients </title>
 </head>
 <body style = "background-color: #3366CC">
 	<h6 align = right> <a href = "index.html"> Home </a> </h6>
