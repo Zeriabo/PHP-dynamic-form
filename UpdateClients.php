@@ -1,5 +1,4 @@
- session_save_path("/home/users/web/b1652/nf.nezar1/cgi-bin/tmp");
- session_start(); ?>
+session_start(); 
 <html>
 <head>
 	<title> List of  Clients To be Updated </title>
@@ -87,7 +86,7 @@ include_once "MySQLConnection.php";
 
 	<?php
 
-	While( $row = mysql_fetch_array ($resultSet, MYSQL_ASSOC)) {             print( "<tr>" );
+	While( $row = mysql_fetch_array ($resultSet, MYSQL_ASSOC)) {             print( "<tr>" );
 
              print ("<td><input type='text'  name='id[]' readonly='readonly' value='$row[Pid]'  ></td>");
              print ("<td><input type='text'  name='Memo[]'  value='$row[Memo]'  ></td>");
